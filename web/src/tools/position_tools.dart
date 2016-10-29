@@ -3,9 +3,8 @@ import 'dart:math';
 class PositionTools {
 
   /// Projection d'un carré dans un cercle. si x et y représente une position
-  /// dans un carré de taille  widht et height, les x et y sortant sont cette
-  /// même position après qu'in ai "arrondi" le carré en écrasant ses 4 coins.
-  // TODO: tester avec rectangle
+  /// dans un carré de taille  width et height, les x et y sortant sont cette
+  /// même position après qu'on ai "arrondi" le carré en écrasant ses 4 coins.
   static Point squareToCircle(num x, num y, num width, num height)
   {
     num xSquare;
